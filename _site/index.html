@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://localhost:4000/QuasiPeriodicWaveNet_demo/stylesheets/stylesheet.css">
+  <link rel="canonical" href="http://localhost:4000/QuasiPeriodicWaveNet_demo/">
+  <link rel="stylesheet" href="http://localhost:4000/QuasiPeriodicWaveNet_demo/stylesheets/sharing-popup.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="alternate" type="application/rss+xml" title="Quasi-Periodic WaveNet" href="http://localhost:4000/QuasiPeriodicWaveNet_demo/feed.xml">
+  <meta name="description" content="">
+
+   <title>Quasi-Periodic WaveNet</title>
+
+
+
+</head>
+
+
+  <body>
+
+    <header class="page-header">
+     <h1 class="project-name"> <a class="header-link" href="/QuasiPeriodicWaveNet_demo/"> Quasi-Periodic WaveNet</a></h1>
+     <!--<h3 style="font-weight: lighter;">a blog for <a class="header-link" href="http://canijustgo.com/" target="_blank">canijustgo.com</a></h3>-->
+     <h3>
+</header>
+
+
+    <section class="main-content">
+      <div class="wrapper">
+        <p>This page is the demo of</p>
+<ol>
+  <li>“Quasi-Periodic WaveNet: an autoregressive raw waveform generative model with pitch-dependent dilated convolution neural network “ [<a href="https://arxiv.org/abs/2007.05663">paper</a>] [<a href="https://github.com/bigpon/QPNet">code</a>]</li>
+  <li>“Quasi-Periodic WaveNet vocoder: a pitch dependent dilated convolution model for parametric speech generation” [<a href="https://arxiv.org/abs/1907.00797">paper</a>]</li>
+  <li>“Statistical voice conversion with Quasi-Periodic WaveNet vocoder” [<a href="https://arxiv.org/abs/1907.08940">paper</a>]</li>
+</ol>
+
+<h2 id="abstract"><strong>Abstract</strong></h2>
+<p align="justify"> We propose a WaveNet-like quasi-periodic audio waveform generation model (QPNet) with a novel network architecture named pitch-dependent dilated convolution neural network (PDCNN) to improve pitch controllability of WaveNet (WN). The effectiveness of WN as a vocoder to generate high-fidelity speech samples on the basis of the given acoustic features recently has been proved. However, because of the fixed dilated convolution neural network (DCNN) and generic network architecture, the WN vocoder has a difficulty to generate speech with the given fundamental frequency (<i>F</i><sub>0</sub>) values which are outside the observed <i>F</i><sub>0</sub> range of training data. To address this limitation, we propose the QPNet vocoder with the PDCNN component and a cascade network structure to respectively model the long- and short-term correlations of speech samples. Specifically, PDCNN is a variant of DCNN which has the time-variant adaptive dilation size related to the given <i>F</i><sub>0</sub> values. QPNet cascades the adaptive (with PDCNNs) and fixed (with DCNNs) macroblocks to respectively model the periodicity and local correlations of speech signals. </p>
+<p>Testing corpus: <a href="http://www.vc-challenge.org/">VCC2018</a></p>
+
+<h2 id="architecture-of-qpnet-vocoder"><strong>Architecture of QPNet vocoder</strong></h2>
+<center><img src="res/figure/QPNet_vocoder.svg" style="display:block;width:500px;height:370px" /></center>
+
+<h2 id="pitch-dependent-dilated-convolution"><strong>Pitch-dependent dilated convolution</strong></h2>
+<center><img src="res/figure/PDCNN.svg" style="display:block;width:600px;height:370px" /></center>
+
+<h2 id="pitch-transformation"><strong>Pitch transformation</strong></h2>
+<ul>
+  <li>Conditioned on <strong>unchanged</strong> <em>F</em><sub>0</sub></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Vocoder</th>
+      <th style="text-align: center">Female (SF3)</th>
+      <th style="text-align: center">Male (SM3)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Natural</strong></td>
+      <td style="text-align: center"><audio src="res/audio/SF3/Natural/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/Natural/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WORLD</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_0_F0/WORLD/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_0_F0/WORLD/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WNf<sup> *1</sup></td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_0_F0/WNf/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_0_F0/WNf/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WNc<sup> *2</sup></td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_0_F0/WNc/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_0_F0/WNc/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">QPNet<sup> *3</sup></td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_0_F0/QPNet/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_0_F0/QPNet/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">rQPNet<sup> *4</sup></td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_0_F0/rQPNet/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_0_F0/rQPNet/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">full QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_0_F0/QPNetf/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_0_F0/QPNetf/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">full rQPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_0_F0/rQPNetf/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_0_F0/rQPNetf/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><sup>*1. <code class="highlighter-rouge">WNf: WaveNet vocoder with full-size (30 layers)</code> </sup> <br />
+<sup>*2. <code class="highlighter-rouge">WNc: WaveNet vocoder with compact-size (16 layers)</code> </sup><br />
+<sup>*3. <code class="highlighter-rouge">QPNet: QPNet vocoder with fixed-adaptive order(16 layers)</code> </sup><br />
+<sup>*4. <code class="highlighter-rouge">rQPNet: QPNet vocoder with reversed adaptive-fixed order(16 layers)</code> </sup><br />
+<sup>**. <code class="highlighter-rouge">full: full-size (r)QPNet vocoder(34 layers)</code> </sup></p>
+<ul>
+  <li>Conditioned on <strong>1/2</strong> <em>F</em><sub>0</sub></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Vocoder</th>
+      <th style="text-align: center">Female (SF3)</th>
+      <th style="text-align: center">Male (SM3)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">WORLD</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/0_5_F0/WORLD/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/0_5_F0/WORLD/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WNf</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/0_5_F0/WNf/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/0_5_F0/WNf/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WNc</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/0_5_F0/WNc/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/0_5_F0/WNc/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/0_5_F0/QPNet/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/0_5_F0/QPNet/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">rQPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/0_5_F0/rQPNet/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/0_5_F0/rQPNet/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">full QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/0_5_F0/QPNetf/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/0_5_F0/QPNetf/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">full rQPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/0_5_F0/rQPNetf/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/0_5_F0/rQPNetf/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<ul>
+  <li>Conditioned on <strong>3/2</strong> <em>F</em><sub>0</sub></li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Vocoder</th>
+      <th style="text-align: center">Female (SF3)</th>
+      <th style="text-align: center">Male (SM3)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">WORLD</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_5_F0/WORLD/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_5_F0/WORLD/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WNf</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_5_F0/WNf/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_5_F0/WNf/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WNc</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_5_F0/WNc/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_5_F0/WNc/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_5_F0/QPNet/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_5_F0/QPNet/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">rQPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_5_F0/rQPNet/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_5_F0/rQPNet/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">full QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_5_F0/QPNetf/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_5_F0/QPNetf/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">full rQPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/1_5_F0/rQPNetf/30009.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/1_5_F0/rQPNetf/30002.wav" controls="" preload=""></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<ul>
+  <li>Subjective results</li>
+</ul>
+<center><img src="res/figure/QPNet_F0.jpg" /></center>
+
+<h2 id="speaker-voice-conversion"><strong>Speaker voice conversion</strong></h2>
+<ul>
+  <li><strong>Intra</strong> gender conversion</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Vocoder</th>
+      <th style="text-align: center">Female (SF3-&gt;TF1)</th>
+      <th style="text-align: center">Male (SM3-&gt;TM1)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Source</strong></td>
+      <td style="text-align: center"><audio src="res/audio/SF3/Natural/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/Natural/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Target</strong></td>
+      <td style="text-align: center"><audio src="res/audio/TF1/Natural/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/TM1/Natural/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WORLD</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/WORLD/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/WORLD/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SI-WNf</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/SI-WNf/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/SI-WNf/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SI-WNc</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/SI-WNc/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/SI-WNc/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SI-QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/SI-QPNet/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/SI-QPNet/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDo-WNf</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/SDo-WNf/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/SDo-WNf/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDo-WNc</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/SDo-WNc/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/SDo-WNc/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDo-QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/SDo-QPNet/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/SDo-QPNet/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDa-WNf</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/SDa-WNf/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/SDa-WNf/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDa-WNc</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/SDa-WNc/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/SDa-WNc/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDa-QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TF1/SDa-QPNet/30010.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TM1/SDa-QPNet/30010.wav" controls="" preload=""></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><sup>**. <code class="highlighter-rouge">SI: speaker independent vocoder</code> </sup> <br />
+<sup>**. <code class="highlighter-rouge">SDo: speaker dependent vocoder (only update the output layers of WN)</code> </sup><br />
+<sup>**. <code class="highlighter-rouge">SDa: speaker dependent vocoder (update the whole WN network)</code> </sup><br />
+<br /></p>
+<ul>
+  <li><strong>Inter</strong> gender conversion</li>
+</ul>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Vocoder</th>
+      <th style="text-align: center">Female to male (SF3-&gt;TM1)</th>
+      <th style="text-align: center">Male to female (SM3-&gt;TF1)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left"><strong>Source</strong></td>
+      <td style="text-align: center"><audio src="res/audio/SF3/Natural/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/Natural/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Target</strong></td>
+      <td style="text-align: center"><audio src="res/audio/TM1/Natural/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/TF1/Natural/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">WORLD</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/WORLD/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/WORLD/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SI-WNf</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/SI-WNf/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/SI-WNf/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SI-WNc</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/SI-WNc/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/SI-WNc/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SI-QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/SI-QPNet/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/SI-QPNet/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDo-WNf</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/SDo-WNf/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/SDo-WNf/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDo-WNc</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/SDo-WNc/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/SDo-WNc/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDo-QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/SDo-QPNet/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/SDo-QPNet/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDa-WNf</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/SDa-WNf/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/SDa-WNf/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDa-WNc</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/SDa-WNc/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/SDa-WNc/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">SDa-QPNet</td>
+      <td style="text-align: center"><audio src="res/audio/SF3/TM1/SDa-QPNet/30005.wav" controls="" preload=""></audio></td>
+      <td style="text-align: center"><audio src="res/audio/SM3/TF1/SDa-QPNet/30032.wav" controls="" preload=""></audio></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><br /></p>
+<ul>
+  <li>Subjective results</li>
+</ul>
+<center><img src="res/figure/QPNet_VC.jpg" /></center>
+
+<p><br /> 
+<a href="https://bigpon.github.io/">Home</a></p>
+
+<p><br /><br />
+<br /></p>
+
+      </div>
+    </div>
+
+    <p style="font-size: 60%; text-align: right;">page layout is modified from <a href="https://github.com/jasonlong/cayman-theme">cayman-theme</a> and <a href="https://github.com/adueck/cayman-blog">cayman-blog</a>. <a href="http://creativecommons.org/licenses/by/4.0/">LICENSE</a></p>
+
+
+
+  </body>
+
+    <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.12/clipboard.min.js"></script>
+
+<script>
+var clipboard = new Clipboard('.share-btn');
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+</script>
+
+
+</html>
