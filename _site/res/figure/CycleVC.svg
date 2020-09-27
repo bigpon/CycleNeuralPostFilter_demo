@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- 由 Microsoft Visio 11.0, SVG Export, v1.0 產生 CycleVC.svg 頁-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.35154in" height="1.59564in"
+		viewBox="0 0 313.311 114.886" xml:space="preserve" color-interpolation-filters="sRGB" class="st20">
+	<v:documentProperties v:langID="1028" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#d8d8d8;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st2 {fill:#000000;font-family:Times New Roman;font-size:0.833336em;font-weight:bold}
+		.st3 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:none;stroke:#294e6f;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {fill:url(#grad30-20);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st7 {fill:#000000;font-family:Times New Roman;font-size:0.833336em;font-style:italic;font-weight:bold}
+		.st8 {font-size:1em;font-style:normal}
+		.st9 {fill:url(#grad30-26);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st10 {fill:url(#grad30-37);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st11 {fill:#000000;font-family:Times New Roman;font-size:0.833336em}
+		.st12 {font-size:1em}
+		.st13 {fill:url(#grad30-37);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st14 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.5}
+		.st15 {marker-end:url(#mrkr5-73);stroke:#404040;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st16 {fill:#404040;fill-opacity:1;stroke:#404040;stroke-opacity:1;stroke-width:0.28409090909091}
+		.st17 {fill:none;stroke:#d26d19;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st18 {fill:#d26d19;font-family:Times New Roman;font-size:0.833336em;font-weight:bold}
+		.st19 {fill:#294e6f;font-family:Times New Roman;font-size:1.00001em;font-weight:bold}
+		.st20 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad30-20" v:fillPattern="30" v:foreground="#f7dbc1" v:background="#faeadc" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#f7dbc1;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#faeadc;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad30-26" v:fillPattern="30" v:foreground="#cbddeb" v:background="#e1ebf3" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#cbddeb;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#e1ebf3;stop-opacity:1"/>
+		</linearGradient>
+		<linearGradient id="grad30-37" v:fillPattern="30" v:foreground="#f0f0f0" v:background="#ffffff" x1="0" y1="1" x2="0" y2="0">
+			<stop offset="0" style="stop-color:#f0f0f0;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#ffffff;stop-opacity:1"/>
+		</linearGradient>
+	</defs>
+	<defs id="Markers">
+		<g id="lend5">
+			<path d="M 2 1 L 0 0 L 1.98117 -0.993387 C 1.67173 -0.364515 1.67301 0.372641 1.98465 1.00043 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr5-73" class="st16" v:arrowType="5" v:arrowSize="2" v:setback="6.16" refX="-6.16" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend5" transform="scale(-3.52,-3.52) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>頁-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="流程圖" v:index="0"/>
+		<v:layer v:name="連接器" v:index="1"/>
+		<g id="shape312-1" v:mID="312" v:groupContext="shape" v:layerMember="0" transform="translate(6.41929,-57.8295)">
+			<title>程序.312</title>
+			<desc>TTS</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="25.5118" cy="95.0433" width="51.03" height="39.685"/>
+			<rect x="0" y="75.2008" width="51.0236" height="39.685" class="st1"/>
+			<text x="16.06" y="86.2" class="st2" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>TTS</text>		</g>
+		<g id="shape192-4" v:mID="192" v:groupContext="shape" v:layerMember="0" transform="translate(67.7402,-57.8295)">
+			<title>程序.192</title>
+			<desc>Synthetic</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="26.0325" cy="95.0433" width="52.07" height="39.685"/>
+			<rect x="0" y="75.2008" width="52.0649" height="39.685" class="st1"/>
+			<text x="6.03" y="86.2" class="st2" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Synthetic</text>		</g>
+		<g id="shape310-7" v:mID="310" v:groupContext="shape" transform="translate(6.41929,-57.8295)">
+			<title>工作表.310</title>
+			<rect v:rectContext="foreign" x="0" y="92.2087" width="51.0236" height="22.6772" class="st3"/>
+			<image x="0" y="92.2087" width="51.0236" height="22.6772" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="92.2087" width="51.0236" height="22.6772" class="st4"/>
+		</g>
+		<g id="shape311-11" v:mID="311" v:groupContext="shape" transform="translate(6.41929,-6.80583)">
+			<title>工作表.311</title>
+			<rect v:rectContext="foreign" x="0" y="92.2087" width="51.0236" height="22.6772" class="st3"/>
+			<image x="0" y="92.2087" width="51.0236" height="22.6772" preserveAspectRatio="none" xlink:href="data:image/png;base64,
+						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"/>
+			<rect v:rectContext="foreign" x="0" y="92.2087" width="51.0236" height="22.6772" class="st3"/>
+		</g>
+		<g id="shape259-15" v:mID="259" v:groupContext="shape" v:layerMember="0" transform="translate(0.75,-0.75)">
+			<title>程序.259</title>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<rect x="0" y="1.5" width="311.811" height="113.386" class="st5"/>
+		</g>
+		<g id="shape261-17" v:mID="261" v:groupContext="shape" v:layerMember="0" transform="translate(193.506,-6.80583)">
+			<title>程序.261</title>
+			<desc>StoT conversion</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="25.5118" cy="103.547" width="51.03" height="22.6772"/>
+			<rect x="0" y="92.2087" width="51.0236" height="22.6772" class="st6"/>
+			<text x="15.79" y="100.55" class="st7" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>StoT<v:newlineChar/><tspan
+						x="2.46" dy="1.2em" class="st8">conversion</tspan></text>		</g>
+		<g id="shape262-23" v:mID="262" v:groupContext="shape" v:layerMember="0" transform="translate(131.144,-6.80583)">
+			<title>Process.262</title>
+			<desc>TtoS conversion</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="25.5118" cy="103.547" width="51.03" height="22.6772"/>
+			<rect x="0" y="92.2087" width="51.0236" height="22.6772" class="st9"/>
+			<text x="15.79" y="100.55" class="st7" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>TtoS<v:newlineChar/><tspan
+						x="2.46" dy="1.2em" class="st8">conversion</tspan></text>		</g>
+		<g id="shape263-29" v:mID="263" v:groupContext="shape" v:layerMember="0" transform="translate(131.144,-57.8295)">
+			<title>Process.263</title>
+			<desc>StoT conversion</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="25.5118" cy="103.547" width="51.03" height="22.6772"/>
+			<rect x="0" y="92.2087" width="51.0236" height="22.6772" class="st6"/>
+			<text x="15.79" y="100.55" class="st7" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>StoT<v:newlineChar/><tspan
+						x="2.46" dy="1.2em" class="st8">conversion</tspan></text>		</g>
+		<g id="shape191-34" v:mID="191" v:groupContext="shape" v:layerMember="0" transform="translate(67.7402,-57.8295)">
+			<title>程序.191</title>
+			<desc>Acoustic features</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.0325" cy="103.547" width="52.07" height="22.6772"/>
+			<rect x="0" y="92.2087" width="52.0649" height="22.6772" class="st10"/>
+			<text x="8.26" y="100.55" class="st11" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Acoustic <tspan
+						x="10.21" dy="1.2em" class="st12">features</tspan></text>		</g>
+		<g id="shape193-40" v:mID="193" v:groupContext="shape" v:layerMember="0" transform="translate(193.506,-57.8295)">
+			<title>程序.193</title>
+			<desc>Acoustic features</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="25.5118" cy="103.547" width="51.03" height="22.6772"/>
+			<rect x="0" y="92.2087" width="51.0236" height="22.6772" class="st13"/>
+			<text x="7.74" y="100.55" class="st11" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Acoustic <tspan
+						x="9.69" dy="1.2em" class="st12">features</tspan></text>		</g>
+		<g id="shape194-45" v:mID="194" v:groupContext="shape" v:layerMember="0" transform="translate(193.506,-57.8295)">
+			<title>程序.194</title>
+			<desc>Natural</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="25.5118" cy="95.0433" width="51.03" height="39.685"/>
+			<rect x="0" y="75.2008" width="51.0236" height="39.685" class="st14"/>
+			<text x="8.85" y="86.2" class="st2" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Natural</text>		</g>
+		<g id="shape197-48" v:mID="197" v:groupContext="shape" v:layerMember="0" transform="translate(6.41929,-6.80583)">
+			<title>程序.197</title>
+			<desc>Natural</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="25.5118" cy="95.0433" width="51.03" height="39.685"/>
+			<rect x="0" y="75.2008" width="51.0236" height="39.685" class="st14"/>
+			<text x="8.85" y="86.2" class="st2" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Natural</text>		</g>
+		<g id="shape198-51" v:mID="198" v:groupContext="shape" v:layerMember="0" transform="translate(67.7402,-6.80583)">
+			<title>程序.198</title>
+			<desc>Acoustic features</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="26.0325" cy="103.547" width="52.07" height="22.6772"/>
+			<rect x="0" y="92.2087" width="52.0649" height="22.6772" class="st13"/>
+			<text x="8.26" y="100.55" class="st11" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Acoustic <tspan
+						x="10.21" dy="1.2em" class="st12">features</tspan></text>		</g>
+		<g id="shape199-56" v:mID="199" v:groupContext="shape" v:layerMember="0" transform="translate(67.7402,-6.80583)">
+			<title>程序.199</title>
+			<desc>Natural</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="26.0325" cy="95.0433" width="52.07" height="39.685"/>
+			<rect x="0" y="75.2008" width="52.0649" height="39.685" class="st14"/>
+			<text x="9.37" y="86.2" class="st2" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Natural</text>		</g>
+		<g id="shape200-59" v:mID="200" v:groupContext="shape" v:layerMember="0" transform="translate(255.868,-6.80583)">
+			<title>程序.200</title>
+			<desc>Acoustic features</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197"/>
+			<v:textRect cx="25.5118" cy="103.547" width="51.03" height="22.6772"/>
+			<rect x="0" y="92.2087" width="51.0236" height="22.6772" class="st13"/>
+			<text x="7.74" y="100.55" class="st11" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Acoustic <tspan
+						x="9.69" dy="1.2em" class="st12">features</tspan></text>		</g>
+		<g id="shape201-64" v:mID="201" v:groupContext="shape" v:layerMember="0" transform="translate(255.868,-6.80583)">
+			<title>程序.201</title>
+			<desc>Natural</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="25.5118" cy="95.0433" width="51.03" height="39.685"/>
+			<rect x="0" y="75.2008" width="51.0236" height="39.685" class="st14"/>
+			<text x="8.85" y="86.2" class="st2" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Natural</text>		</g>
+		<g id="shape202-67" v:mID="202" v:groupContext="shape" v:layerMember="1" transform="translate(55.4471,-11.0578)">
+			<title>動態連接器.202</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M1.88 107.8 L6.13 107.8" class="st15"/>
+		</g>
+		<g id="shape203-74" v:mID="203" v:groupContext="shape" v:layerMember="1" transform="translate(118.388,-62.0814)">
+			<title>動態連接器.203</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M1.42 107.8 L6.6 107.8" class="st15"/>
+		</g>
+		<g id="shape204-80" v:mID="204" v:groupContext="shape" v:layerMember="1" transform="translate(180.75,-62.0814)">
+			<title>動態連接器.204</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M1.42 107.8 L6.6 107.8" class="st15"/>
+		</g>
+		<g id="shape205-86" v:mID="205" v:groupContext="shape" v:layerMember="1" transform="translate(118.388,-11.0578)">
+			<title>動態連接器.205</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M1.42 107.8 L6.6 107.8" class="st15"/>
+		</g>
+		<g id="shape206-92" v:mID="206" v:groupContext="shape" v:layerMember="1" transform="translate(180.75,-11.0578)">
+			<title>動態連接器.206</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M1.42 107.8 L6.6 107.8" class="st15"/>
+		</g>
+		<g id="shape207-98" v:mID="207" v:groupContext="shape" v:layerMember="1" transform="translate(243.112,-11.0578)">
+			<title>動態連接器.207</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M1.42 107.8 L6.6 107.8" class="st15"/>
+		</g>
+		<g id="shape196-104" v:mID="196" v:groupContext="shape" v:layerMember="1" transform="translate(55.5049,-76.2547)">
+			<title>動態連接器.196</title>
+			<v:userDefs>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<path d="M1.94 121.97 L6.08 121.97" class="st15"/>
+		</g>
+		<g id="shape241-110" v:mID="241" v:groupContext="shape" v:layerMember="0" transform="translate(131.144,-6.41929)">
+			<title>程序.241</title>
+			<desc>Cycle-conversion</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197" v:verticalAlign="0"/>
+			<v:textRect cx="56.6929" cy="95.0433" width="113.39" height="39.685"/>
+			<rect x="0" y="75.2008" width="113.386" height="39.685" class="st17"/>
+			<text x="20.03" y="86.2" class="st18" v:langID="1028"><v:paragraph v:horizAlign="1"/><v:tabList/>Cycle-conversion</text>		</g>
+		<g id="shape226-113" v:mID="226" v:groupContext="shape" v:layerMember="0" transform="translate(6.41929,-97.128)">
+			<title>程序.226</title>
+			<desc>Cycle-VC training</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="成本" v:prompt="" v:type="7" v:format="@" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="ProcessNumber" v:lbl="處理程序編號" v:prompt="" v:type="2" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Owner" v:lbl="擁有者" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Function" v:lbl="功能" v:prompt="" v:type="0" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0" v:val="VT4()"/>
+				<v:cp v:nameU="StartDate" v:lbl="開始日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false"
+						v:ask="false" v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="EndDate" v:lbl="結束日期" v:prompt="" v:type="5" v:format="" v:sortKey="" v:invis="false" v:ask="false"
+						v:langID="1028" v:cal="0"/>
+				<v:cp v:nameU="Status" v:lbl="狀態" v:prompt="" v:type="4" v:format=";尚未開始;進行中;完成;延期;等候輸入" v:sortKey=""
+						v:invis="false" v:ask="false" v:langID="1028" v:cal="0" v:val="VT4()"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="DefaultWidth" v:prompt="" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="DefaultHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="ResizeTxtHeight" v:prompt="" v:val="VT0(0.59055118110236):24"/>
+				<v:ud v:nameU="msvThemeColors" v:val="VT0(36):26"/>
+				<v:ud v:nameU="msvThemeEffects" v:val="VT0(16):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(2,2,2,2)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="51.0236" cy="106.382" width="102.05" height="17.0079"/>
+			<rect x="0" y="97.878" width="102.047" height="17.0079" class="st3"/>
+			<text x="2" y="109.29" class="st19" v:langID="1028"><v:paragraph/><v:tabList/>Cycle-VC training</text>		</g>
+	</g>
+</svg>

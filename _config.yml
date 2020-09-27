@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Quasi-Periodic WaveNet
+title: Cyclical Neural-Post-Filter
 description: '' # write a nice description for your blog
-baseurl: '/QuasiPeriodicWaveNet_demo' # the subpath of your site, e.g. /blog
+baseurl: '/CycleNeuralPostFilter_demo' # the subpath of your site, e.g. /blog
 url: '' # the base hostname & protocol for your site http://www.example.com
 # google_analytics: 'UA-XXXXXX-X'
 # twitter_username: 'twitter_username'
