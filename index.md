@@ -2,7 +2,7 @@
 layout: default
 ---
 This page is the demo of 
-1. "A cyclical post-filtering approach to mismatch refinement of neural vocoder for text-to-speech systems" [[paper](https://arxiv.org/abs/2005.08659)] [[highlight]()] [[YouTube]()]   
+1. "A cyclical post-filtering approach to mismatch refinement of neural vocoder for text-to-speech systems" [[paper](https://isca-speech.org/archive/Interspeech_2020/pdfs/1072.pdf)] [[highlight](https://youtu.be/28kGUactIxQ)] [[YouTube](https://youtu.be/O_FQvdNRtlo)]   
   
 
 ## **Abstract**  
