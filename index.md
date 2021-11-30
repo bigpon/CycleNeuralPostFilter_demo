@@ -52,7 +52,7 @@ This page is the demo of
 <sup>*2. **AM**: acoustic mismatch </sup>  
 <sup>*3. **TM**: temporal mismatch </sup>  
 <sup>*4. **NPF**: neural-post-filter </sup>  
-**WN**: WaveNet vocoder
+**WN**: WaveNet vocoder  
 **PWG**: Parallel WaveGAN vocoder
 
 <br />  
