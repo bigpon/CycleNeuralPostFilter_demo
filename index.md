@@ -43,12 +43,17 @@ This page is the demo of
 | WN (AM<sup> *2</sup>) | <audio src="res/audio/lmrkt/DNN/wPF/WN/AM/NJ_002.wav" controls preload></audio> | <audio src="res/audio/myssi/DNN/wPF/WN/AM/NJ_002.wav" controls preload></audio> |
 | WN (TM<sup> *3</sup>) | <audio src="res/audio/lmrkt/DNN/wPF/WN/TM/NJ_002.wav" controls preload></audio> | <audio src="res/audio/myssi/DNN/wPF/WN/TM/NJ_002.wav" controls preload></audio> |
 | WN (NPF<sup> *4</sup>) | <audio src="res/audio/lmrkt/DNN/wPF/WN/NPF/NJ_002.wav" controls preload></audio> | <audio src="res/audio/myssi/DNN/wPF/WN/NPF/NJ_002.wav" controls preload></audio> |
+| PWG (UB<sup> *1</sup>) | <audio src="res/audio/lmrkt/Natural/PWG/NJ_002.wav" controls preload></audio> | <audio src="res/audio/myssi/Natural/PWG/NJ_002.wav" controls preload></audio> |
+| PWG (AM<sup> *2</sup>) | <audio src="res/audio/lmrkt/DNN/wPF/PWG/AM/NJ_002.wav" controls preload></audio> | <audio src="res/audio/myssi/DNN/wPF/PWG/AM/NJ_002.wav" controls preload></audio> |
+| PWG (TM<sup> *3</sup>) | <audio src="res/audio/lmrkt/DNN/wPF/PWG/TM/NJ_002.wav" controls preload></audio> | <audio src="res/audio/myssi/DNN/wPF/PWG/TM/NJ_002.wav" controls preload></audio> |
+| PWG (NPF<sup> *4</sup>) | <audio src="res/audio/lmrkt/DNN/wPF/PWG/NPF/NJ_002.wav" controls preload></audio> | <audio src="res/audio/myssi/DNN/wPF/PWG/NPF/NJ_002.wav" controls preload></audio> |
 
 <sup>*1. **UB**: upper bound (natural features) </sup>  
 <sup>*2. **AM**: acoustic mismatch </sup>  
 <sup>*3. **TM**: temporal mismatch </sup>  
 <sup>*4. **NPF**: neural-post-filter </sup>  
 **WN**: WaveNet vocoder
+**PWG**: Parallel WaveGAN vocoder
 
 <br />  
 
@@ -62,17 +67,26 @@ This page is the demo of
 | WN (AM<sup> *2</sup>) | <audio src="res/audio/lmrkt/HMM/woPF/WN/AM/NI_002.wav" controls preload></audio> | <audio src="res/audio/myssi/HMM/woPF/WN/AM/NI_002.wav" controls preload></audio> |
 | WN (TM<sup> *3</sup>) | <audio src="res/audio/lmrkt/HMM/woPF/WN/TM/NI_002.wav" controls preload></audio> | <audio src="res/audio/myssi/HMM/woPF/WN/TM/NI_002.wav" controls preload></audio> |
 | WN (NPF<sup> *4</sup>) | <audio src="res/audio/lmrkt/HMM/woPF/WN/NPF/NI_002.wav" controls preload></audio> | <audio src="res/audio/myssi/HMM/woPF/WN/NPF/NI_002.wav" controls preload></audio> |
+| PWG (UB<sup> *1</sup>) | <audio src="res/audio/lmrkt/Natural/PWG/NI_002.wav" controls preload></audio> | <audio src="res/audio/myssi/Natural/PWG/NI_002.wav" controls preload></audio> |
+| PWG (AM<sup> *2</sup>) | <audio src="res/audio/lmrkt/HMM/woPF/PWG/AM/NI_002.wav" controls preload></audio> | <audio src="res/audio/myssi/HMM/woPF/PWG/AM/NI_002.wav" controls preload></audio> |
+| PWG (TM<sup> *3</sup>) | <audio src="res/audio/lmrkt/HMM/woPF/PWG/TM/NI_002.wav" controls preload></audio> | <audio src="res/audio/myssi/HMM/woPF/PWG/TM/NI_002.wav" controls preload></audio> |
+| PWG (NPF<sup> *4</sup>) | <audio src="res/audio/lmrkt/HMM/woPF/PWG/NPF/NI_002.wav" controls preload></audio> | <audio src="res/audio/myssi/HMM/woPF/PWG/NPF/NI_002.wav" controls preload></audio> |
 
 <br /> 
 
 ## **Subjective Results** 
-- **Mismatch refinement**: preference evaluation of speech quality
-- WN w/ NPF outperforms WN w/ AM or TM   
-<center><img src="res/figure/PK.png" style="display:block;width:420px;height:270px"></center> 
-
 - **NPF performance**: MOS evaluation of speech quality   
-- WN w/ NPF outperforms original low-cost TTS systems   
-<center><img src="res/figure/MOS.png" style="display:block;width:420px;height:270px"></center>  
+- WN w/ NPF outperforms original low-cost TTS systems   <center><img src="res/figure/MOS.png" style="display:block;width:420px;height:270px"></center>  
+
+- PWG w/ NPF is comparable to WN w/ NPF   <center><img src="res/figure/MOS_vocoder.png" style="display:block;width:420px;height:270px"></center>  
+
+
+- **Mismatch refinement**: preference evaluation of speech quality
+- WN w/ NPF outperforms WN w/ AM or TM   <center><img src="res/figure/PK.png" style="display:block;width:420px;height:270px"></center> 
+
+- PWG w/ NPF is comparable to/better than PWG w/ AM or TM   <center><img src="res/figure/PK_PWG.png" style="display:block;width:420px;height:270px"></center> 
+
+
 
 <br /> 
 
